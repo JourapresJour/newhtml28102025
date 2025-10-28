@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio - Développeur Web</title>
+    <meta name="description" content="Portfolio de Herman, développeur web passionné par la création de sites modernes et responsives">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#accueil" class="logo">MonPortfolio</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#accueil" class="nav-link">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#apropos" class="nav-link">À propos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#competences" class="nav-link">Compétences</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projets" class="nav-link">Projets</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Hero -->
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Bonjour, je suis <span class="highlight">Herman</span></h1>
+            <p class="hero-subtitle">Développeur Web Full Stack</p>
+            <p class="hero-description">Je crée des expériences web modernes, responsives et accessibles</p>
+            <div class="hero-buttons">
+                <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+                <a href="#contact" class="btn btn-secondary">Me contacter</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://via.placeholder.com/400x400/007bff/ffffff?text=Photo+Pro" alt="Photo professionnelle de Herman" class="profile-img">
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="apropos" class="about">
+        <div class="container">
+            <h2 class="section-title">À propos de moi</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Passionné par le développement web depuis plusieurs années, je me spécialise dans la création d'applications web modernes et performantes.</p>
+                    <p>Mon objectif est de concevoir des solutions élégantes qui répondent parfaitement aux besoins des utilisateurs tout en respectant les meilleures pratiques du développement.</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <strong>Email:</strong> votre.email@example.com
+                        </div>
+                        <div class="info-item">
+                            <strong>Téléphone:</strong> +33 1 23 45 67 89
+                        </div>
+                        <div class="info-item">
+                            <strong>Localisation:</strong> Paris, France
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="competences" class="skills">
+        <div class="container">
+            <h2 class="section-title">Mes Compétences</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Vue.js</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Outils</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Webpack</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">VS Code</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projets" class="projects">
+        <div class="container">
+            <h2 class="section-title">Mes Projets</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/300x200/343a40/ffffff?text=Projet+1" alt="Capture d'écran du projet Application E-commerce" class="project-img">
+                    <div class="project-content">
+                        <h3>Application E-commerce</h3>
+                        <p>Plateforme de vente en ligne avec panier et paiement sécurisé</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Démo</a>
+                            <a href="#" class="project-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/300x200/343a40/ffffff?text=Projet+2" alt="Capture d'écran du projet Blog Personnel" class="project-img">
+                    <div class="project-content">
+                        <h3>Blog Personnel</h3>
+                        <p>Blog moderne avec système de commentaires et administration</p>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>Express</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Démo</a>
+                            <a href="#" class="project-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/300x200/343a40/ffffff?text=Projet+3" alt="Capture d'écran du projet Application Météo" class="project-img">
+                    <div class="project-content">
+                        <h3>Application Météo</h3>
+                        <p>Application météo en temps réel avec géolocalisation</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>API REST</span>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Démo</a>
+                            <a href="#" class="project-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contactez-moi</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Travaillons ensemble !</h3>
+                    <p>N'hésitez pas à me contacter pour discuter de votre projet.</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <strong>Email:</strong> votre.email@example.com
+                        </div>
+                        <div class="contact-method">
+                            <strong>Téléphone:</strong> +33 1 23 45 67 89
+                        </div>
+                        <div class="contact-method">
+                            <strong>LinkedIn:</strong> linkedin.com/in/votrenom
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nom</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Herman. Tous droits réservés.</p>
+            <div class="social-links">
+                <a href="#" aria-label="GitHub">
+                    <img src="https://via.placeholder.com/24/ffffff/000000?text=G" alt="Logo GitHub">
+                </a>
+                <a href="#" aria-label="LinkedIn">
+                    <img src="https://via.placeholder.com/24/ffffff/000000?text=L" alt="Logo LinkedIn">
+                </a>
+                <a href="#" aria-label="Twitter">
+                    <img src="https://via.placeholder.com/24/ffffff/000000?text=T" alt="Logo Twitter">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
